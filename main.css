@@ -1,0 +1,159 @@
+*{
+	font-family: poppins, sans-serif;
+	background: rgb(7, 21, 27);
+	align-items: baseline;
+}
+.container{
+	width: 100%;
+	min-height: 80vh;
+	padding-left: 4%;
+	padding-right: 4%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 70px;
+	cursor: pointer;
+	margin: 40px 0;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	display: none;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #1c9ad7;
+}
+.text {
+	display: flex;
+	height: 100%;
+	align-items: center;
+  }
+  
+  svg {
+	  display: block;
+	  font: 10.5em 'Poppins';
+	  width: 1200px;
+	  height: 300px;
+	  margin: 0 auto;
+  }
+  
+  .text-copy {
+	  fill: none;
+	  stroke: white;
+	  stroke-dasharray: 6% 29%;
+	  stroke-width: 5px;
+	  stroke-dashoffset: 0%;
+	  animation: stroke-offset 5.5s infinite linear;
+  }
+  
+  .text-copy:nth-child(1){
+	  stroke: #1c9ad7;
+	  animation-delay: -1;
+  }
+  
+  .text-copy:nth-child(2){
+	  stroke: #449fd3;
+	  animation-delay: -2s;
+  }
+  
+  .text-copy:nth-child(3){
+	  stroke: #216292;
+	  animation-delay: -3s;
+  }
+  
+  .text-copy:nth-child(4){
+	  stroke: #f49825;
+	  animation-delay: -4s;
+  }
+  
+  .text-copy:nth-child(5){
+	  stroke: #FDB731;
+	  animation-delay: -5s;
+  }
+  
+  @keyframes stroke-offset{
+	  100% {stroke-dashoffset: -35%;}
+  }
+@media only screen and (max-width: 700px){
+	nav ul{
+		width: 100%;
+		position: absolute;
+		top: 90px;
+		right: 0;
+		z-index: 2;
+	}
+	nav ul li{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	nav ul li a{
+		color: #fff;
+		font-size: 15px;
+	}
+	.menu-icon{
+		display: block;
+	}
+	#menuList{
+		overflow: hidden;
+		transition: 0.5s;
+	}
+	.logo{
+		width: 50px;
+	}
+	.menu-icon{
+		width: 30px;
+	}
+}
+.button a{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 100px;
+	transition: all .2s;
+	background-color: #1c9ad7;
+}
+.button a:hover{
+	letter-spacing: 4px;
+	transition: 0.5s;
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.button a:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
