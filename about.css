@@ -58,14 +58,14 @@ p{
 	text-align: center;
 	color: #fff;
 	text-align: justify;
-	font-size: 1.4em;
+	font-size: 2em;
 	letter-spacing: 1px;
 	padding-left: 8%;
 	padding-right: 8%;
 	background-color: #216292;
 	border-radius: 10px;
 	box-shadow: 0 3px 5px 5px #000;
-	-webkit-text-stroke-width: 1.2px;
+	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: #000;
 }
 @media only screen and (max-width: 700px){
@@ -94,9 +94,13 @@ p{
 	}
 	h1{
 		font-size: 2em;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #000;
 	}
 	p{
-		font-size: 1.2em;
+		font-size: 1.4em;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #000;
 	}
 	.logo{
 		width: 50px;
