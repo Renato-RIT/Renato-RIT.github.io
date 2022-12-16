@@ -17,7 +17,7 @@
 	align-items: center;
 }
 .logo{
-	width: 70px;
+	width: 100px;
 	cursor: pointer;
 	margin: 40px 0;
 }
@@ -62,6 +62,7 @@ nav ul li a:hover{
 	  fill: none;
 	  stroke: white;
 	  stroke-dasharray: 6% 29%;
+	  stroke-width: 3px;
 	  stroke-dashoffset: 0%;
 	  animation: stroke-offset 5.5s infinite linear;
   }
@@ -98,7 +99,7 @@ nav ul li a:hover{
 	nav ul{
 		width: 100%;
 		position: absolute;
-		top: 90px;
+		top: 99px;
 		right: 0;
 		z-index: 2;
 	}
@@ -119,7 +120,7 @@ nav ul li a:hover{
 		transition: 0.5s;
 	}
 	.logo{
-		width: 50px;
+		width: 80px;
 	}
 	.menu-icon{
 		width: 30px;
